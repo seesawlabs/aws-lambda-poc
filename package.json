@@ -1,0 +1,17 @@
+{
+  "name": "lambda-poc",
+  "version": "0.0.1",
+  "description": "Lambda PoC",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-aws-lambda": "~0.9.0",
+    "aws-sdk": "~2.1.41",
+    "npm": "~2.13.2"
+  },
+  "dependencies": {
+    "crypto": "0.0.3"
+  }
+}

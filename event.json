@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.0",
+      "eventSource": "aws:s3",
+      "awsRegion": "us-east-1",
+      "eventTime": "2015-07-30T15:24:03.724Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "AWS:AIDAIVIIVAMRTUM5QWV6E"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "173.174.120.253"
+      },
+      "responseElements": {
+        "x-amz-request-id": "39E86E6AADDBC7E9",
+        "x-amz-id-2": "EHRrDGpMPfvH/Es0MzbjVWTrF4u+5zJiQ/WGjn/0woByV+gtnYEJckAe2ma0uboi"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "ZjFlNmNjNTMtNjgxYi00MjIxLWI3YTgtNTA2MGZiZWNiZTc4",
+        "bucket": {
+          "name": "lambda-poc",
+          "ownerIdentity": {
+            "principalId": "A34HCTDBEPZP4E"
+          },
+          "arn": "arn:aws:s3:::lambda-poc"
+        },
+        "object": {
+          "key": "newfile2.txt",
+          "size": 20,
+          "eTag": "244aecf6a71049f367f847820670622f",
+          "sequencer": "0055BA41938CB348B8"
+        }
+      }
+    }
+  ]
+}
